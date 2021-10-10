@@ -31,6 +31,12 @@ Table: receitas
 
 ## End-Points
 
+
+| HTTP Method | End-Point |
+|-------------|-----------|
+| (GET) | /api/seeder/categoria |
+| (GET) | /api/seeder/receita |
+
 | HTTP Method | End-Point |
 |-------------|-----------|
 | (GET)    | /api/categoria/all |
@@ -47,8 +53,3 @@ Table: receitas
 | (PUT)    | /api/receita/update |
 | (POST)   | /api/receita/create |
 | (DELETE) | /api/receita/delete/{id} |
-
-| HTTP Method | End-Point |
-|-------------|-----------|
-| (GET) | /api/seeder/categoria |
-| (GET) | /api/seeder/receita |
