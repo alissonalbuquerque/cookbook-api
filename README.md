@@ -33,18 +33,22 @@ Table: receitas
 
 | HTTP Method | End-Point |
 |-------------|-----------|
-| (GET) | /api/categoria/all          |
-| (GET) | /api/categoria/{id}         |
-| (PUT) | /api/categoria/update       |
-| (POST) | /api/categoria/create       |
-| (DELETE) | /api/categoria/delete/{id}  |
+| (GET)    | /api/categoria/all |
+| (GET)    | /api/categoria/{id} |
+| (PUT)    | /api/categoria/update |
+| (POST)   | /api/categoria/create |
+| (DELETE) | /api/categoria/delete/{id} |
 
-(GET)       /api/receita/all
-(GET)       /api/receita/{id}
-(GET)       /api/receita/lista/categoria/{id}
-(PUT)       /api/receita/update
-(POST)      /api/receita/create
-(DELETE)    /api/receita/delete/{id}
+| HTTP Method | End-Point |
+|-------------|-----------|
+| (GET)    | /api/receita/all |
+| (GET)    | /api/receita/{id} |
+| (GET)    | /api/receita/lista/categoria/{id} |
+| (PUT)    | /api/receita/update |
+| (POST)   | /api/receita/create |
+| (DELETE) | /api/receita/delete/{id} |
 
-(GET)       /api/seeder/categoria
-(GET)       /api/seeder/receita
+| HTTP Method | End-Point |
+|-------------|-----------|
+| (GET) | /api/seeder/categoria |
+| (GET) | /api/seeder/receita |
