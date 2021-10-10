@@ -54,6 +54,14 @@ public class Receita {
         this.categoria = categoria;
     }
 
+    public Receita(String titulo, String ingredientes, String preparo, Date tempo_preparo, Categoria categoria) {
+        this.titulo = titulo;
+        this.ingredientes = ingredientes;
+        this.preparo = preparo;
+        this.tempo_preparo = tempo_preparo;
+        this.categoria = categoria;
+    }
+
     public Long getId() {
         return this.id;
     }
